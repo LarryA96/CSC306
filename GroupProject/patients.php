@@ -128,10 +128,7 @@ function Age($birth){
 $patientList = fopen(__DIR__."/patientList.csv" , "w") or die("Error: Could not open file.");
 
 if ($patientList){
-
-    //Import list of cities
-    global $cities;
-    
+   
     //Insert headers
     fputcsv($patientList, ["Name", "Age", "Email", "D.O.B", "Phone", "Insurance", "Address"]);
 
