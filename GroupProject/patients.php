@@ -124,7 +124,7 @@ function Age($birth){
 }
 
 
-//Function to generate and patient data 
+//Function to generate and insert patient data 
 $patientList = fopen(__DIR__."/patientList.csv" , "w") or die("Error: Could not open file.");
 
 if ($patientList){
