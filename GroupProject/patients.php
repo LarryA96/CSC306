@@ -49,7 +49,7 @@ function Name(){
 
 //Function to create email address from name
 function Email($first, $last){
-    //Bring domains array into function
+    //Create list of domains to use
     $domains = ["@hotmail.com", "@gmail.com", "@yahoo.com", "@outlook.com", "@icloud.com"];
 
     //Create random number to decide domain handle and naming method
