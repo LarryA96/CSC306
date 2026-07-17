@@ -1,9 +1,8 @@
+<?php
 /* Name: Larry Alston
    Class: CSC306
    Date: 7/17/2026
 */
-
-<?php
 
 //Function to create date of birth
 function Birth(){
