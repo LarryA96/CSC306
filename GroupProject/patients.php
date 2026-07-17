@@ -130,10 +130,10 @@ $patientList = fopen(__DIR__."/patientList.csv" , "w") or die("Error: Could not 
 if ($patientList){
    
     //Insert headers
-    fputcsv($patientList, ["Name", "Age", "Email", "D.O.B", "Phone", "Insurance", "Address"]);
+    fputcsv($patientList, ["Name", "Age", "Email", "D.O.B", "Phone", "Insurance", "Address", "Patient_ID"]);
 
     //Insert patient data rows
-    for($i = 0; $i < 99; $i++){
+    for($i = 1; $i <= 100; $i++){
 
         //Call functions for the fields
         $pName = Name();
@@ -145,7 +145,7 @@ if ($patientList){
         $pPhone = Phone($pAddress[1]);
 
         //Write data to line
-        fputcsv($patientList, [join(" ", $pName), $pAge, $pEmail, $pBirth, $pPhone, $pInsurance, $pAddress[0]]);
+        fputcsv($patientList, [join(" ", $pName), $pAge, $pEmail, $pBirth, $pPhone, $pInsurance, $pAddress[0]], $i);
     };
 } else {
     die("Error: file couldn't be edited.");
