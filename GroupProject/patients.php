@@ -28,7 +28,7 @@ function Phone($areaCode){
     return "($areaCode) ".join("-", $phone);
 }
 
-//Function to create full name in form [first, last]
+//Function to create full name [first, last]
 function Name(){
     $first = ["Ethan", "Harper", "Mason", "Evelyn", "Logan", "Ella", "Avery", "Aria", "Jackson", "Scarlett", 
     "Lucas", "Chloe", "Oliver", "Layla", "Jack", "Penelope", "Ryan", "Lina", "Owen", "Nora", "Liam", "Olivia", 
