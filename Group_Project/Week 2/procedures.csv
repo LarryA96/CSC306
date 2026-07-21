@@ -1,0 +1,35 @@
+ProcedureCode,ProcedureName,Category,Cost,PerformingDoctors
+D0120,Periodic Oral Evaluation,Diagnostic,55.00,"Dr. Alvarez, Dr. Chen, Dr. Whitfield, Dr. Patel"
+D0150,Comprehensive Oral Evaluation (New Patient),Diagnostic,95.00,"Dr. Alvarez, Dr. Chen, Dr. Whitfield, Dr. Patel"
+D0210,Full Mouth X-Rays,Diagnostic,130.00,"Dr. Chen, Dr. Patel"
+D0220,Single X-Ray Image,Diagnostic,35.00,"Dr. Chen, Dr. Patel"
+D0274,Bitewing X-Rays (4 films),Diagnostic,65.00,"Dr. Chen, Dr. Patel"
+D0330,Panoramic X-Ray,Diagnostic,140.00,"Dr. Chen, Dr. Patel"
+D1110,Adult Prophylaxis (Cleaning),Preventive,110.00,"Dr. Alvarez, Dr. Whitfield"
+D1120,Child Prophylaxis (Cleaning),Preventive,85.00,"Dr. Alvarez, Dr. Whitfield"
+D1206,Fluoride Varnish Application,Preventive,45.00,"Dr. Alvarez, Dr. Whitfield"
+D1351,Sealant (per tooth),Preventive,60.00,"Dr. Alvarez, Dr. Whitfield"
+D1510,"Space Maintainer, Fixed",Preventive,275.00,Dr. Alvarez
+D2140,"Amalgam Filling, One Surface",Restorative,150.00,"Dr. Chen, Dr. Whitfield"
+D2150,"Amalgam Filling, Two Surfaces",Restorative,195.00,"Dr. Chen, Dr. Whitfield"
+D2330,"Composite (Tooth-Colored) Filling, One Surface",Restorative,175.00,"Dr. Chen, Dr. Whitfield"
+D2331,"Composite Filling, Two Surfaces",Restorative,220.00,"Dr. Chen, Dr. Whitfield"
+D2740,Porcelain Crown,Restorative,1150.00,"Dr. Chen, Dr. Patel"
+D2750,Porcelain Fused to Metal Crown,Restorative,1050.00,"Dr. Chen, Dr. Patel"
+D2950,Core Buildup (under crown),Restorative,260.00,"Dr. Chen, Dr. Patel"
+D3220,Pulpotomy,Endodontic,210.00,Dr. Patel
+D3310,"Root Canal, Anterior Tooth",Endodontic,900.00,Dr. Patel
+D3320,"Root Canal, Premolar",Endodontic,1050.00,Dr. Patel
+D3330,"Root Canal, Molar",Endodontic,1250.00,Dr. Patel
+D4341,Periodontal Scaling & Root Planing (per quadrant),Periodontics,240.00,Dr. Whitfield
+D4910,Periodontal Maintenance,Periodontics,130.00,Dr. Whitfield
+D5110,Complete Upper Denture,Prosthodontics,1650.00,"Dr. Alvarez, Dr. Patel"
+D5120,Complete Lower Denture,Prosthodontics,1650.00,"Dr. Alvarez, Dr. Patel"
+D6010,Dental Implant Placement,Prosthodontics,2400.00,Dr. Patel
+D7140,Simple Tooth Extraction,Oral Surgery,190.00,"Dr. Patel, Dr. Chen"
+D7210,Surgical Tooth Extraction,Oral Surgery,320.00,Dr. Patel
+D7220,"Impacted Wisdom Tooth Extraction, Soft Tissue",Oral Surgery,385.00,Dr. Patel
+D9110,Palliative (Emergency) Treatment,Adjunctive,100.00,"Dr. Alvarez, Dr. Chen, Dr. Whitfield, Dr. Patel"
+D9223,Deep Sedation/IV Sedation (per 15 min),Adjunctive,150.00,Dr. Patel
+D9310,Consultation with Specialist,Adjunctive,75.00,Dr. Patel
+D9944,Occlusal (Night) Guard,Adjunctive,450.00,Dr. Whitfield
